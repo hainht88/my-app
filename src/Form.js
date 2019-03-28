@@ -25,7 +25,7 @@ class Form extends React.Component {
     render() {
         const { task } = this.state
         return (
-            <form className="todo-form">
+            <form className="todo-list">
                 <input type="text" name="task" value={task} onChange={this.handleChange} />
                 <button onClick={this.submitForm} >Add</button>
             </form>

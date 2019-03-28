@@ -657,21 +657,11 @@ caption {
 .contain-table {
   overflow-x: auto; }
 
-.todo-form {
+.todo-list {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     width: 40%;
-}
-
-.todo-form input, .todo-form button {
-    margin-right: 10px;
-}
-
-.todo-form input:focus {
-    border: 1px solid #cdcdcd;
-    outline: none;
-    box-shadow: none;
 }
 
 @media (min-width: 600px) {
